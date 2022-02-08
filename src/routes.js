@@ -1,8 +1,8 @@
 import { createNativeStackNavigator } from '@react-navigation/native-stack'
 
-import Login from './pages/Login';
-import Home from './pages/Home';
-import Pedidos from './pages/Pedidos';
+import Login from './pages/Login/index';
+import Home from './pages/Home/index';
+import Pedidos from './pages//Pedidos/index';
 
 const Stack = createNativeStackNavigator();
 
